@@ -30,6 +30,12 @@
 			{@html data.selftext_html}
 		</div>
 	{/if}
+	{#if data.media?.reddit_video?.fallback_url}
+        <div class="reddit-link">
+            <span>Media link:&nbsp;</span>
+            <a href={data.media.reddit_video.fallback_url} target="_blank" class="long-url">{data.media.reddit_video.fallback_url}</a>
+        </div>
+    {/if}
 	<div class="reddit-link">
 		<span>Source link:&nbsp;</span>
 		<a href={`https://reddit.com${data.permalink}`} target="_blank" class="long-url">{`https://reddit.com${data.permalink}`}</a>
