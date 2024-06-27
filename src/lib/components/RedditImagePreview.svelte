@@ -66,8 +66,8 @@
 		border-radius: 1rem;
 		
 		img {
-			max-width: 10rem;
-			max-height: 10rem;
+			max-width: 20rem;
+			max-height: 20rem;
 			margin-left: 0.5rem;
 			filter: blur(0px);
 			transition: filter 0.25s ease;
