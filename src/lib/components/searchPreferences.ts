@@ -38,4 +38,4 @@ function makeSavableStore<T>(key: string, defaultValue: T) {
 }
 
 export const dateDisplay = makeSavableStore<DateDisplay>("dateDisplay", DateDisplay.utc);
-export const blurNsfw = makeSavableStore<boolean>("blurNsfw", true);
+export const blurNsfw = makeSavableStore<boolean>("blurNsfw", false);
